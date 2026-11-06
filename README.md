@@ -60,20 +60,35 @@ This case study is not a validated prediction of stress tolerance.
 
 *Listed technologies represent the intended project stack; implementation and integration are ongoing.*
 
-## Current Development Status
+## Development Status
 
-**Project stage: Ongoing development**
+**Project stage: Prototype development and computational validation**
 
-- [x] Project concept and research scope established
-- [x] Computational workflow outlined
-- [ ] FASTA validation module
-- [ ] Clustal Omega integration
-- [ ] Conservation and variation analysis
-- [ ] Pairwise comparison module
-- [ ] Candidate prioritization framework
-- [ ] Biological evidence integration
-- [ ] Reproducible report generation
-- [ ] End-to-end testing and validation
+The project report documents a validation run using 10 nucleotide sequences.
+
+### Reported Validation Results
+
+- Input sequences: 10
+- Conserved alignment positions: 51
+- Variable alignment positions: 3
+- Total alignment positions: 54
+- Conservation percentage: 94.44%
+
+These values describe the reported test dataset and should not be interpreted as general biological conclusions.
+
+### Documented Computational Components
+
+- [x] FASTA input and sequence validation
+- [x] Multiple sequence alignment using Clustal Omega
+- [x] Conservation analysis
+- [x] Sequence variation analysis
+- [x] Pairwise sequence comparison
+- [x] Comparative Sequence Priority Score (CSPS) methodology
+- [ ] Complete source-code integration into this repository
+- [ ] Independent reproducibility testing
+- [ ] Further validation using additional datasets
+
+The computational results and prototype are documented in the project report. The complete implementation is not yet available in this repository.
 
 ## Scientific Scope and Limitations
 
